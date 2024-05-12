@@ -7,4 +7,4 @@
 
 ---
 
-- [ManagedBean annotation](ManagedBean)
+- [ManagedBean annotation](JavaEE%20-%20ManagedBean.md)

@@ -1,0 +1,46 @@
+
+### Overview
+1. Set-up for local servelet:
+   - [Set-up Tomcat](Tomcat - config) - list of commands and documentation
+2.  [Set-up JSF application](https://www.tutorialspoint.com/jsf/jsf_first_application.htm) to set-up an Hello World application
+
+
+### What is a JSF App
+[Oralce doc](https://docs.oracle.com/javaee/7/tutorial/jsf-intro001.htm#BNAPK)
+The functionality provided by a JavaServer Faces application is similar to that of any other Java web application.
+A typical JavaServer Faces application includes the following parts.
+- A set of *web pages* in which components are laid out.
+- A set of *tags* to add components to the web page.
+- A set of *==managed beans==*, which are lightweight, container-managed objects (POJOs).
+  > [!tip] Managed beans
+  > In a JavaServer Faces application, managed beans serve as backing beans, which define properties and functions for UI components on a page.
+- A *web deployment descriptor* (`web.xml` file).
+- ==\**Optionally*== => one or more application configuration resource files, such as a `faces-config.xml` file, which can be used to define page navigation rules and configure beans and other custom objects, such as custom components.
+- ==\**Optionally*== => a set of custom objects, which can include custom components, validators, converters, or listeners, created by the application developer.
+- ==\**Optionally*== => a set of custom tags for representing custom objects on the page.
+
+
+> [!success] Responding to a Client Request for a JavaServer Faces Page
+> Interaction between client and server in a typical JavaServer Faces application.
+> In response to a client request, a web page is rendered by the web container that implements JavaServer Faces technology.
+>
+> ![Description of Figure 7-1 follows](https://docs.oracle.com/javaee/7/tutorial/img/jeett_dt_014.png)  
+>
+>The web page, `myfacelet.xhtml`, is built using JavaServer Faces component tags.
+> Component tags are used to add components to the `view` (represented by `myView` in the diagram), which is the server-side representation of the page.
+> 
+> In addition to components, the web page can also reference objects, such as the following:
+> - Any event listeners, validators, and converters that are registered on the components
+> - The JavaBeans components that capture the data and process the application-specific functionality of the components
+>
+>On request from the client, the view is rendered as a response.
+>Rendering is the process whereby, based on the server-side view, the web container generates output, such as HTML or XHTML, that can be read by the client, such as a browser.
+
+---
+
+- [ManagedBean annotation](JavaEE%20-%20ManagedBean.md)
+
+# JSF Useful topics
+- 
+- [`remoteCommand` stackOverflow](https://stackoverflow.com/questions/13893025/refresh-jsf-component-after-custom-javascript-ajax-call)
+

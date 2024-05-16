@@ -14,7 +14,7 @@ The Apache Tomcat® software is an open source implementation of the following  
 ### Set-up
 
 > [!success]
-> ## [Complete guide](https://www.digitalocean.com/community/tutorials/install-tomcat-on-linux)
+> ## [Complete guide - Tomcat on Linux](https://www.digitalocean.com/community/tutorials/install-tomcat-on-linux)
 > - [Community Server Connectors](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-community-server-connector) \[CSC\] for Visual  Studio Code
 > - [Starting a Tomcat vith CSC](https://stackoverflow.com/questions/74388409/how-to-start-a-tomcat-8-5-server-on-vsc-using-community-server-connector-extensi)
 > - [CSC Commands](https://github.com/redhat-developer/vscode-rsp-ui#available-commands)
@@ -157,6 +157,7 @@ We use the following command to check over the Tomcat status
 sudo systemctl status tomcat
 ```
 
+
 ---
-
-
+##### ***References***
+- 

@@ -68,8 +68,7 @@ As being a MVC ([Model-View-Controller](http://en.wikipedia.org/wiki/Model%E2%80
 >- It describes a standard set of architectural patterns for a web application.
 
 ---
-
-### Related questions
+# Related questions
 
 - [What is the main-stream Java alternative to ASP.NET / PHP?](https://stackoverflow.com/questions/2556553/what-is-the-main-stream-java-alternative-to-asp-net-php)
 - [Java EE web development, what skills do I need?](https://stackoverflow.com/questions/1958808/java-web-development-what-skills-do-i-need)
@@ -78,3 +77,8 @@ As being a MVC ([Model-View-Controller](http://en.wikipedia.org/wiki/Model%E2%80
 - [How to avoid Java code in JSP files?](https://stackoverflow.com/questions/3177733/howto-avoid-java-code-in-jsp-files)
 - [What components are MVC in JSF MVC framework?](https://stackoverflow.com/questions/5104094/what-components-are-mvc-in-jsf-mvc-framework)
 - [What is the need of JSF, when UI can be achieved with JavaScript libraries such as jQuery and AngularJS](https://stackoverflow.com/questions/4421839/what-is-the-need-of-jsf-when-ui-can-be-achieved-from-css-html-javascript-jquery/)
+
+---
+##### **References***
+- [StackOverflow post](https://stackoverflow.com/questions/2095397/what-is-the-difference-between-jsf-servlet-and-jsp)
+- 

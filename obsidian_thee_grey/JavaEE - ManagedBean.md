@@ -1,7 +1,7 @@
 
 
 >[!warning]
->To be moved to Obsidian documentation
+>To be moved to Notion documentation
 
 
 ---

@@ -7,7 +7,6 @@
 >3. How are JSP and JSF related to each other?
 >4. Is JSF some kind of **Pre-Build UI based JSP** like ASP.NET-MVC?
 
----
 ### [JSP (JavaServer Pages)](https://stackoverflow.com/tags/jsp/info)
 
 JSP is a **Java view technology** running on the server machine which allows you to write template text in client side languages (like HTML, CSS, JavaScript, ect.).

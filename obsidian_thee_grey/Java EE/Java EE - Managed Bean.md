@@ -1,13 +1,4 @@
 
-
->[!warning]
->To be moved to Notion documentation
-
-
----
-
-
-
 The presence of this annotation on a class ==automatically registers the class with the runtime as a managed bean class==.
 Classes must be scanned for the presence of this annotation at application startup, before any requests have been serviced.
 

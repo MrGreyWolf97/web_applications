@@ -1,6 +1,8 @@
 >[!question] [Sometimes I see JSF URL is *.jsf, sometimes *.xhtml and sometimes /faces/*. Why?](https://stackoverflow.com/questions/3008395/sometimes-i-see-jsf-url-is-jsf-sometimes-xhtml-and-sometimes-faces-why)
 >
->Been try to learn JSF, and sometimes I see the URL is `*.jsf` and sometimes is `*.xhtml` or `/faces/*`. Can someone fill my knowledge, please? When I create a JSF using Facelet, the file extension is `.xhtml`, so where does `.jsf` URL extension come from?
+>Been try to learn JSF, and sometimes I see the URL is `*.jsf` and sometimes is `*.xhtml` or `/faces/*`.
+>Can someone fill my knowledge, please?
+>When I create a JSF using Facelet, the file extension is `.xhtml`, so where does `.jsf` URL extension come from?
 
 The `.jsf` extension is where the `FacesServlet` is during the JSF 1.2 period often mapped on in the `web.xml`.
 

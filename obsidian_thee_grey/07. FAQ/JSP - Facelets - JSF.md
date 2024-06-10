@@ -9,6 +9,7 @@
 > So which is it?
 > Logic dictates it almost certainly can't be both!
 
+### JSF - JSP - Facelets
 
 - JSF is a standardized ***==Java framework==*** for web UIs based on an MVC pattern, built on top of
 - JSPs is a (much older) ***==standard==*** for generating web pages from templates - these _can_ be used as the View in a JSF application, but also separately from JSF.
@@ -26,7 +27,7 @@ In the light of that, let's take a look at your conflicting statements:
 
 
 ---
-## JSP vs Facelets
+### JSP vs Facelets
 
 **==Java Server Pages (JSP)==** is java technology that enables Web developers and designers to rapidly develop and easily maintain, information-rich, dynamic Web pages that leverage existing business systems. 
 JSP technology separates the user interface from content generation, enabling designers to change the overall page layout without altering the underlying dynamic content.  

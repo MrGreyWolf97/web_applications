@@ -479,44 +479,22 @@ FROM employees;
 ```
 > This query shows each employee’s salary along with the total salary for their department.
 
-## Practical Uses of Window Functions
 
-Window functions are invaluable for data analysis, allowing for sophisticated calculations that are difficult or impossible to perform with standard SQL aggregates or joins. For example, they can be used to:
+> [!example] Practical Uses of Window Functions
+>
+>Window functions are invaluable for data analysis, allowing for sophisticated calculations that are difficult or impossible to perform with standard SQL aggregates or joins.
+>
+>For example, they can be used to:
+>
+>- Calculate running totals and moving averages.
+>- Perform row-by-row comparisons, such as finding the difference in sales from one month to the next.
+>- Rank items within categories, such as finding the top 3 best-selling products in each category.
+>
+>Window functions extend the analytical capabilities of SQL, enabling more dynamic and complex analyses directly within your database queries.
 
-- Calculate running totals and moving averages.
-- Perform row-by-row comparisons, such as finding the difference in sales from one month to the next.
-- Rank items within categories, such as finding the top 3 best-selling products in each category.
+By understanding and applying these functions, you can unlock deeper insights into your data, making it easier to perform sophisticated data analysis tasks without resorting to external processing tools.
 
-Window functions extend the analytical capabilities of SQL, enabling more dynamic and complex analyses directly within your database queries. By understanding and applying these functions, you can unlock deeper insights into your data, making it easier to perform sophisticated data analysis tasks without resorting to external processing tools. With the power of window functions, SQL continues to be an indispensable tool for data analysts and database professionals alike.
-
-## Conclusion
-
-Throughout this blog, we have explored the fundamental aspects of ANSI SQL, highlighting its importance and versatility in the field of data management and analysis. Starting with an introduction to why ANSI SQL matters, we journeyed through the intricacies of Data Definition Language (DDL) and Data Manipulation Language (DML), uncovering the foundational operations that allow us to structure and interact with databases. We delved into aggregations, joins, and unions, showcasing the power of SQL in transforming and consolidating data from multiple sources. Furthermore, we explored the advanced features of Common Table Expressions (CTE) and window functions, demonstrating SQL’s capability to handle complex queries and perform sophisticated data analysis.
-
-## Key Takeaways
-
-**ANSI SQL’s Standardization:** Learning ANSI SQL equips you with a universally applicable skill set, fostering interoperability across various database systems and enhancing career opportunities in the data field.
-
-**Foundational Commands:** Mastery of DDL and DML commands is crucial for any database professional, enabling the creation, manipulation, and querying of data in efficient and meaningful ways.
-
-**Advanced Data Analysis:** Through the use of aggregations, joins, unions, CTEs, and window functions, SQL provides a rich set of tools for performing deep data analysis, making it possible to extract valuable insights from complex datasets.
-
-## Continuous Learning and Practice
-
-The journey to mastering SQL is ongoing. The landscape of data technology is ever-evolving, with new features and best practices continually emerging. To stay proficient and knowledgeable:
-
-**Practice Regularly:** Hands-on experience with real-world datasets is invaluable. Utilize online platforms and resources to practice the concepts discussed in this blog.
-
-**Stay Updated:** Follow developments in SQL standards and database technologies. Engage with the community through forums, blogs, and professional networks.
-
-**Explore Further:** Dive deeper into specific areas of interest, such as database optimization, data warehousing, or specific SQL dialects tailored to particular database systems.
-
-## Final Thoughts
-
-Understanding and effectively utilizing ANSI SQL can significantly enhance your ability to work with data, from basic data manipulation to complex data analysis. The concepts and techniques covered in this blog provide a solid foundation, but the true depth of SQL’s capabilities is discovered through continuous learning and application. Whether you are just starting your journey in data management or looking to refine your SQL skills, the path forward is filled with opportunities to harness the power of data to inform decisions, drive innovation, and uncover insights.
-
-Embrace the journey of learning ANSI SQL, and let it open doors to the vast possibilities that proficiency in data management and analysis brings.
-
----
+With the power of window functions, SQL continues to be an indispensable tool for data analysts and database professionals alike.
+# ---
 ##### References
 - [LinkedIn Article](https://www.linkedin.com/pulse/ansi-sql-101-understanding-syntax-concepts-alex-merced-wswye/)

@@ -453,8 +453,9 @@ They are particularly useful for tasks that involve ==ranking, running totals, m
 ##### **Ranking functions**
 Such as ROW_NUMBER(), RANK(), DENSE_RANK(), and NTILE(), are used for assigning ranks to rows within a partition.
 ```SQL
-SELECT name, salary, 
-       ROW_NUMBER() OVER (ORDER BY salary DESC) as rank
+SELECT name,
+	salary, 
+    ROW_NUMBER() OVER (ORDER BY salary DESC) as rank
 FROM employees;
 ```
 > This query assigns a unique rank to each employee based on their salary, with the highest salary receiving a rank of 1.
@@ -463,8 +464,9 @@ FROM employees;
 ##### **Analytic functions**
 Such as LEAD(), LAG(), FIRST_VALUE(), LAST_VALUE(), allow for comparisons between rows within a partition.
 ```SQL
-SELECT name, salary, 
-       LEAD(salary) OVER (ORDER BY salary DESC) as next_higher_salary
+SELECT name, 
+	salary, 
+    LEAD(salary) OVER (ORDER BY salary DESC) as next_higher_salary
 FROM employees;
 ```
 > This returns each employee’s salary and the salary of the next higher-paid employee.

@@ -1,4 +1,16 @@
-#### Database
+> [!info] Table of contents
+>```table-of-contents
+title: 
+style: nestedList # TOC style (nestedList|nestedOrderedList|inlineFirstLevel)
+minLevel: 0 # Include headings from the specified level
+maxLevel: 0 # Include headings up to the specified level
+includeLinks: true # Make headings clickable
+debugInConsole: false # Print debug info in Obsidian console
+>```
+
+---
+## Overview
+### Database
 A _database_ (often referred to as DB) is an organized structure designed to store, modify, and process related information, mostly in large volumes.
 
 Databases are actively used for dynamic sites with significant amounts of data.
@@ -7,7 +19,7 @@ Such websites are usually developed using a server-side programming language (fo
 
 Pages of dynamic sites are formed on the fly as a result of the interaction of scripts and databases after a corresponding request from the client to the web-server.
 
-#### Schema
+### Schema
 The term _database schema_ can mean either a visual data representation, a set of rules it is subject to, or a complete set of objects owned by a particular user.
 An easy way to imagine a schema is to think of it as a field that contains tables, stored procedures, views, and related data resources.
 The schema defines the infrastructure of this field.
@@ -16,10 +28,10 @@ The schema defines the infrastructure of this field.
 
 ## Main difference
 
-A database is any collection of data.
+A **==Database==** is any collection of data.
 The data in a database is usually organized in such a way that the information is easily accessible.
 
-A schema is basically a formal description of how a database is formed and where everything is located.
+A **==Schema==** is basically a formal description of how a database is formed and where everything is located.
 It works as a blueprint that shows where everything is in the database and how it is structured.
 
 

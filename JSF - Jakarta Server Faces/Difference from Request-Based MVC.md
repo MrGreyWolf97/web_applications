@@ -28,7 +28,7 @@ JSF uses Facelets as its default templating system.
 Facelets supports reusability through templating, composite components, and custom tags.
 In contrast, standard request-based MVC frameworks might use JSP or Thymeleaf for view layer.
 
-[Facelets](Facelets%207c4b9c49848e4d9bbf95f6ce4d79f3d2.md)
+[Facelets](Facelets.md)
 
 ### **Navigation model**
 

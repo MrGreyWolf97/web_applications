@@ -54,7 +54,7 @@ This will serve as the view in your JSF application.
 2. Define the UI components in the Facelets page using JSF tags.
 These tags are usually prefixed with `h:` or `f:`.
 You can also use custom tags from libraries like PrimeFaces.
-3. Create a managed bean (or a CDI bean) that will serve as the [backing bean](Facelets%207c4b9c49848e4d9bbf95f6ce4d79f3d2.md) for your Facelets page. This bean will contain the data and the action methods for your page.
+3. Create a managed bean (or a CDI bean) that will serve as the [backing bean](Facelets.md) for your Facelets page. This bean will contain the data and the action methods for your page.
 4. Bind the UI components in your Facelets page to the properties and methods in your backing bean using EL expressions (`#{...}`).
 
 ## Example
@@ -110,4 +110,4 @@ When the button is clicked, the `doAction` method is invoked, and the result of 
 
 ### *References*
 
-[Page Backing Bean](Page%20Backing%20Bean%20a1f806e6af7741bb9dd0ed6011f41e1e.md)
+[Page Backing Bean](Page%20Backing%20Bean.md)
